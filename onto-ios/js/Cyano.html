@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monster</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <!--build:js dist/js/main.min.js -->
+        <script src="browser.js"></script>
+        <!-- endbuild -->
+
+    <style>
+        body {
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+
+    
+   <script type="text/javascript">
+        function logIOS(msg) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', "http://debugger/" +
+                     encodeURIComponent(msg));
+                     xhr.send(null);
+        }
+   
+  function OntCryptoAddress(fromAddr){
+        try {
+            var addr =  new Ont.Crypto.Address(fromAddr);
+            var hex  =  addr.toHexString();
+        } catch (err) {
+        }
+        const obj = {
+            error: 0,
+            result: hex
+        };
+        prompt('hexAddress?params='+JSON.stringify(obj))
+    }
+   function transfer(from,to, dragonId,privateKey) {
+       const contract = '609cd49a9b15009ff2f3a1998f87b8212b8f6afb';
+       const contractAddr = new Ont.Crypto.Address(Ont.utils.reverseHex(contract));
+       const toAddress = new Ont.Crypto.Address(to);
+       const fromAddress = new Ont.Crypto.Address(from);
+       const pkey = new Ont.Crypto.PrivateKey(privateKey)
+       const dragon = Ont.utils.num2hexstring(dragonId, 2, false)
+
+        const paramList = [];
+        paramList.push(Ont.utils.str2hexstr('transfer'));
+        const args = [];
+        args.push(toAddress.serialize());
+        args.push(dragonId);
+        paramList.push(args);
+        const params = Ont.ScriptBuilder.createCodeParamsScript(paramList);
+        const tx = Ont.TransactionBuilder.makeInvokeTransaction('', params, contractAddr, '500', '20000',fromAddress);
+
+       Ont.TransactionBuilder.signTransaction(tx, pkey);
+       const ss = tx.serialize()
+       const txHash = Ont.utils.reverseHex(tx.getSignContent())
+       const obj = {
+           error: 0,
+           result: ss,
+           txHash: txHash
+       };
+       prompt('dragonTrafer?params='+JSON.stringify(obj))
+   }
+   function decodeTransHash(signedTx) {
+       const txObj = Ont.Transaction.deserialize(signedTx);
+       for (const sig of txObj.sigs) {
+           if (sig.pubKeys.length !== sig.sigData.length) {
+               const obj = {
+                   error: 2,
+                   result: "Invalid signatures",
+                   txObj: txObj
+               };
+               prompt('decodeTransHash?params='+JSON.stringify(obj))
+               return;
+           }
+           for (let i = 0; i < sig.pubKeys.length; i++) {
+               if (!sig.pubKeys[i].verify(txObj, Ont.Crypto.Signature.deserializeHex(sig.sigData[i]))) {
+                   // alert('Verify signature failed');
+                   const obj = {
+                       error: 3,
+                       result: "Invalid signatures",
+                       txObj: txObj
+                   };
+                   prompt('decodeTransHash?params='+JSON.stringify(obj))
+                   return;
+               }
+           }
+
+       }
+       const payerAddress = txObj.payer.toBase58()
+       const obj = {
+           error: 0,
+           result: txObj,
+           payerAddress:payerAddress
+       };
+       prompt('decodeTransHash?params='+JSON.stringify(obj))
+   }
+   function addSign(signedTx,fromkey){
+       const fromprivate = new Ont.Crypto.PrivateKey(fromkey);
+       const tx = Ont.Transaction.deserialize(signedTx);
+       Ont.TransactionBuilder.addSign(tx, fromprivate);
+       const ss = tx.serialize()
+       const txHash = Ont.utils.reverseHex(tx.getSignContent())
+       const obj = {
+           error: 0,
+           result: ss,
+           txHash: txHash
+       };
+       prompt('addSign?params='+JSON.stringify(obj))
+   }
+  
+  
+   function toHexFromSignString(signString){
+       const sig= Crypto.Signature.deserializePgp(signString)
+       const hex = sig.serializeHex()
+       const obj = {
+           error: 0,
+           result: hex
+       };
+       prompt('toHexFromBase64String?params='+JSON.stringify(obj))
+   }
+    </script>
+
+
+
+</body>
+</html>

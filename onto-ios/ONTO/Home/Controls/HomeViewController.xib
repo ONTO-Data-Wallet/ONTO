@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="createBtn" destination="AEf-kJ-JoE" id="YED-nQ-Iek"/>
+                <outlet property="detailL" destination="oea-rB-7oU" id="5cU-xx-F2o"/>
+                <outlet property="importBtn" destination="0OE-GU-QOU" id="HUu-ku-T56"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="whatIDL" destination="aUU-Gz-KdZ" id="7zY-9L-vq6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_ont_l_blue" translatesAutoresizingMaskIntoConstraints="NO" id="dNg-pI-XVJ">
+                    <rect key="frame" x="147.5" y="91" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="2yk-zQ-2N4"/>
+                        <constraint firstAttribute="height" constant="80" id="8pP-f4-1oW"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEf-kJ-JoE">
+                    <rect key="frame" x="0.0" y="619" width="375" height="48"/>
+                    <color key="backgroundColor" red="0.90521615740000005" green="0.92540532350000004" blue="0.93784707779999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="xhl-it-Z0X"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <state key="normal" title="Create">
+                        <color key="titleColor" red="0.034942965950000002" green="0.64541655779999996" blue="0.78775107860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0OE-GU-QOU">
+                    <rect key="frame" x="0.0" y="555" width="375" height="48"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="2Jj-y1-hMw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <state key="normal" title="Import">
+                        <color key="titleColor" red="0.034942965950000002" green="0.64541655779999996" blue="0.78775107860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is an ONT ID?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUU-Gz-KdZ">
+                    <rect key="frame" x="0.0" y="240" width="375" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="IYX-9S-Vm5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.41568627450980389" green="0.47450980392156861" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oea-rB-7oU">
+                    <rect key="frame" x="35" y="274" width="305" height="95.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="305" id="9JM-aj-ZXj"/>
+                    </constraints>
+                    <string key="text">ONT ID is a passport to the blockchain world. It is a distributed identity framework supporting identity verification and authentication for people, assets, objects, and affairs.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.66666666666666663" green="0.70196078431372544" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dNg-pI-XVJ" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="CM5-2l-veZ"/>
+                <constraint firstItem="aUU-Gz-KdZ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="MSU-xG-sWO"/>
+                <constraint firstItem="oea-rB-7oU" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="35" id="P86-gL-MsN"/>
+                <constraint firstItem="AEf-kJ-JoE" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Pi0-aD-ge5"/>
+                <constraint firstItem="0OE-GU-QOU" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Vb8-Fd-cUp"/>
+                <constraint firstItem="aUU-Gz-KdZ" firstAttribute="top" secondItem="dNg-pI-XVJ" secondAttribute="bottom" constant="69" id="Vge-qP-NTL"/>
+                <constraint firstItem="AEf-kJ-JoE" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="afi-2h-bIT"/>
+                <constraint firstItem="dNg-pI-XVJ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="71" id="gJC-Ls-kZp"/>
+                <constraint firstItem="0OE-GU-QOU" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="hka-Oa-UK6"/>
+                <constraint firstItem="oea-rB-7oU" firstAttribute="top" secondItem="aUU-Gz-KdZ" secondAttribute="bottom" constant="12" id="k59-ou-lm7"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="oea-rB-7oU" secondAttribute="trailing" constant="35" id="kol-bI-1cH"/>
+                <constraint firstItem="aUU-Gz-KdZ" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="pwq-S1-6pR"/>
+                <constraint firstItem="AEf-kJ-JoE" firstAttribute="top" secondItem="0OE-GU-QOU" secondAttribute="bottom" constant="16" id="pyY-hW-fYg"/>
+                <constraint firstItem="AEf-kJ-JoE" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="sqf-N8-PDn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-189.5" y="-209.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_ont_l_blue" width="69" height="69"/>
+    </resources>
+</document>

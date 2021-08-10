@@ -1,0 +1,35 @@
+platform :ios, '10.3'
+use_frameworks!
+target 'ONTO' do
+
+  pod 'YYKit', '~> 1.0.9'
+  pod 'Masonry', '~> 1.1.0'
+  pod 'MJRefresh', '~> 3.1.15'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'SAMKeychain', '~> 1.5.3'
+  pod 'MMDrawerController', '~> 0.6.0'
+  pod 'AFNetworking', '~> 3.2.0'
+  pod 'MJExtension', '~> 3.0.15.1'
+  pod 'SocketRocket'
+  pod 'EllipsePageControl', '~> 0.0.4'
+  pod 'FrameAccessor'
+  pod 'FMDB'
+  pod 'Bugly'
+  pod 'libPhoneNumber-iOS'
+  pod 'cloudrail-si-objc-sdk'
+  pod 'SDWebImage', '~> 4.4.1'
+  pod 'IQKeyboardManager', '~> 6.0.6'
+  pod 'OpenSSL-Universal'
+  pod 'SVGKit'
+  pod 'CocoaLumberjack'
+  pod 'pop'
+#ont_candy
+  pod 'Alamofire'
+  pod 'AlamofireObjectMapper'
+  pod 'ObjectMapper', '~> 3.3'
+  pod 'SwiftyJSON'
+
+  pod 'Reveal-SDK', '~> 14', :configurations => ['Debug']
+  pod 'PromiseKit', '~> 6.0'
+  pod 'ReactiveCocoa', '2.3.1'
+end

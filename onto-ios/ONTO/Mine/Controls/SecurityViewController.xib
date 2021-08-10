@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecurityViewController">
+            <connections>
+                <outlet property="ontIdUnlockB" destination="KTN-Ee-OFc" id="UDm-tC-OHr"/>
+                <outlet property="touchBtn" destination="HwK-5t-MA0" id="CfR-Cg-O1n"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="walletUnlockB" destination="Sfo-b3-hSP" id="BNz-A0-xik"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idlogo" translatesAutoresizingMaskIntoConstraints="NO" id="its-oS-9Ml">
+                    <rect key="frame" x="137" y="68" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="XV9-6h-CgR"/>
+                        <constraint firstAttribute="width" constant="100" id="neT-JY-Mj1"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwK-5t-MA0">
+                    <rect key="frame" x="121" y="225" width="133" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="133" id="70H-rg-AXN"/>
+                        <constraint firstAttribute="height" constant="130" id="L5s-YD-MDg"/>
+                    </constraints>
+                    <state key="normal" image="touchidblue"/>
+                    <connections>
+                        <action selector="touchIdClick:" destination="-1" eventType="touchUpInside" id="zWa-XS-Myw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTN-Ee-OFc">
+                    <rect key="frame" x="0.0" y="619" width="187" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="ONT ID Unlock">
+                        <color key="titleColor" red="0.16862745098039217" green="0.25098039215686274" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="ontIDUnlockClick:" destination="-1" eventType="touchUpInside" id="gCW-wB-umM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfo-b3-hSP">
+                    <rect key="frame" x="188" y="619" width="187" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Wallet Unlock">
+                        <color key="titleColor" red="0.16862745100000001" green="0.25098039220000001" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="walletIDUnlockClick:" destination="-1" eventType="touchUpInside" id="f9U-yN-y9c"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5LT-U9-w9a">
+                    <rect key="frame" x="0.0" y="618" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.92941176470588238" green="0.94901960784313721" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Tdl-kG-9Sq"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfq-S6-k0S">
+                    <rect key="frame" x="187" y="618" width="1" height="48"/>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.94901960780000005" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="dCU-Xk-Ypo"/>
+                        <constraint firstAttribute="height" constant="48" id="yis-tO-WwG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KTN-Ee-OFc" firstAttribute="top" secondItem="5LT-U9-w9a" secondAttribute="bottom" id="2u6-eG-joU"/>
+                <constraint firstItem="its-oS-9Ml" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="48" id="CWH-bO-zhJ"/>
+                <constraint firstItem="Sfo-b3-hSP" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="O74-s1-q3T"/>
+                <constraint firstItem="Sfo-b3-hSP" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="VMS-G4-yjx"/>
+                <constraint firstItem="wfq-S6-k0S" firstAttribute="top" secondItem="5LT-U9-w9a" secondAttribute="top" id="Zrw-Qd-ZmY"/>
+                <constraint firstItem="wfq-S6-k0S" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="d2z-l5-b1b"/>
+                <constraint firstItem="KTN-Ee-OFc" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="pkm-bO-ITk"/>
+                <constraint firstItem="wfq-S6-k0S" firstAttribute="leading" secondItem="KTN-Ee-OFc" secondAttribute="trailing" id="qnH-mo-Fzj"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="5LT-U9-w9a" secondAttribute="bottom" constant="48" id="rag-5A-jn7"/>
+                <constraint firstItem="HwK-5t-MA0" firstAttribute="centerX" secondItem="its-oS-9Ml" secondAttribute="centerX" id="tO6-TX-wWn"/>
+                <constraint firstItem="KTN-Ee-OFc" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="ter-9f-Ypr"/>
+                <constraint firstItem="its-oS-9Ml" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="tnV-4M-hDK"/>
+                <constraint firstItem="Sfo-b3-hSP" firstAttribute="leading" secondItem="wfq-S6-k0S" secondAttribute="trailing" id="uef-YW-YJK"/>
+                <constraint firstItem="5LT-U9-w9a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wTL-gZ-vYf"/>
+                <constraint firstItem="HwK-5t-MA0" firstAttribute="top" secondItem="its-oS-9Ml" secondAttribute="bottom" constant="57" id="yMa-Wm-9Ru"/>
+                <constraint firstItem="Sfo-b3-hSP" firstAttribute="top" secondItem="5LT-U9-w9a" secondAttribute="bottom" id="zcC-9j-DBP"/>
+                <constraint firstAttribute="trailing" secondItem="5LT-U9-w9a" secondAttribute="trailing" id="zse-Kb-cSs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-310.5" y="-88.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="idlogo" width="100" height="100"/>
+        <image name="touchidblue" width="120" height="120"/>
+    </resources>
+</document>

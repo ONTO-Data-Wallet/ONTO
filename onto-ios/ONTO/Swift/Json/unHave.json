@@ -1,0 +1,46 @@
+ [
+  {
+  "country": "AF",
+  "unSupport": [
+                "M_DL",
+                "M_ID"
+                ]
+  },
+  {
+  "country": "AD",
+  "unSupport": [
+                "M_ID"
+                ]
+  },
+  {
+  "country": "AW",
+  "unSupport": [
+                "M_PP"
+                ]
+  },
+  {
+  "country": "BS",
+  "unSupport": [
+                "M_ID"
+                ]
+  },
+  {
+  "country": "BI",
+  "unSupport": [
+                "M_ID"
+                ]
+  },
+  {
+  "country": "CF",
+  "unSupport": [
+                "M_ID"
+                ]
+  },
+  {
+  "country": "CN",
+  "unSupport": [
+                "M_DL",
+                "M_ID"
+                ]
+  }
+  ]

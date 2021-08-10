@@ -1,0 +1,1045 @@
+/* 
+  InfoPlist.strings
+  OnChain
+
+  Created by Zeus.Zhang on 2018/2/26.
+ /*
+ * **************************************************************************************
+ *  Copyright © 2014-2018 Ontology Foundation Ltd.
+ *  All rights reserved.
+ *
+ *  This software is supplied only under the terms of a license agreement,
+ *  nondisclosure agreement or other written agreement with Ontology Foundation Ltd.
+ *  Use, redistribution or other disclosure of any parts of this
+ *  software is prohibited except in accordance with the terms of such written
+ *  agreement with Ontology Foundation Ltd. This software is confidential
+ *  and proprietary information of Ontology Foundation Ltd.
+ *
+ * **************************************************************************************
+ */
+/*
+ InfoPlist。strings
+ OnChain
+ 
+ Created by Zeus。Zhang on 2018/2/26。
+ Copyright © 2018年 Zeus。 All rights reserved。
+ */
+
+
+//中文配置Localizable.strings(Chinese(simplified))：
+"BANGCLE_SKEYBOARD_DONE" = "完成";//完成按钮文本
+"BANGCLE_SKEYBOARD_TITLE" = "安全键盘";//左上角文本
+"BANGCLE_SKEYBOARD_RESOURE" = "keyboardImages";//国际化文字图片的目录名,如:BANGCLE_SKEYBOARD_RESOURE="keyboardImages"表示BangcleSafeKeyBoard.bundle/keyboardImages目录下为中文版文字图片路径
+
+backImagename =  "back1";
+frontImagename = "front1";
+
+ONTSent = "发送ONT";
+ONGSent = "发送ONG";
+
+ReceiverAddress = "接收地址";
+EnterReceiverAddress = "请输入正确的接收地址";
+
+Amount = "数量";
+Balance = "当前余额：";
+Fee = "手续费:";
+PaymentRequest = "支付提交";
+
+Payto = "支付给  ";
+Payby = "付款方  ";
+EnterPassword = "输入密码";
+Balance = "余额：";
+InputTheWalletPassword = "请输入钱包密码";
+InputONTIDPassword = "请输入ONT ID密码";
+ImportWallet = "导入钱包";
+ManageWallet = "管理钱包";
+
+LoginCreate = "新的账户";
+LoginImport = "导入";
+LoginEnterName = "输入数字身份标识";
+LoginCreateCount = "创建ONT ID";
+LoginSetPassword = "设置身份保护密码";
+LoginRetypePassword = "重复密码";
+LoginService = "我已阅读并同意服务条款及隐私策略";
+TheTermsofService = "服务条款";
+PrivacyPolicy  = "隐私策略";
+
+EnterIdentity = "请输入您的身份名称";
+SelectAlert = "请输入1-12位字符";
+SelectAlertPassWord = "请输入8-15位密码";
+SelectAlertPassWord1 = "请输入六位数字密码";
+
+SelectBox = "请勾选指令";
+Back = "返回";
+CreateAlert = "该密码用于加密您的隐私信息，请牢记！";
+PWDERROR = "您二次输入的密码不一致";
+CreateIdentity = "创建我的数字身份";
+WaitingPrompt = "正在向区块链登记。。。";
+Note = "注意";
+NoteContent = "现在您已经拥有了数字身份的私钥。私钥是您在ONTO上获取数字身份数据的唯一方式\n您可以稍后在更多模块进行私钥的备份。";
+WalletNoteContent = "现在您已经拥有了钱包的私钥。私钥是您在ONTO上获取钱包数据的唯一方式\n您可以稍后在更多模块进行私钥的备份。";
+
+Backup = "下一步";
+SuccessAlert = "成功!";
+FailureAlert = "创建数字身份失败";
+SuccessContent = "您已经成功创建数字身份。";
+WalletSuccessContent = "您已经成功创建数字资产钱包。";
+CreateAgain = "重新创建";
+DigitalBackup = "备份数字身份";
+
+
+PleaseBackup = "请备份好您的数字身份";
+DigitalQrcode = "数字身份二维码";
+WallectQrcode = "钱包二维码";
+EncrytedType = "加密私钥";
+Next = "下一步";
+One-stepBack = "备份";
+SaveToAlbum = "您的数字身份二维码\n已存入您的手机相册\n请将妥善保存备份照片";
+CopySuccess = "已复制私钥。";
+Complete = "完成!";
+CompleteContent = "ONTO将帮助您安全、方便地管理您的数字身份，并通过去中心化和密码学算法保护您的隐私数据。";
+EncryptedPrivateKey = "加密私钥";
+EncryptedNote = "注意：您私钥将被安全加密后（KEYSTR）存放在您的手机";
+Album = "相册";
+EnterEncrypted = "请输入您备份的私钥串（KEYSTR）";
+Confirm = "确定";
+QRCode = "二维码";
+EnterPwd = "输入保护密码";
+PleaseEnterPwd = "输入保护密码";
+ManagerIdentity = "管理我的数字身份";
+ManagerWallet = "管理我的数字资产钱包";
+ImportSuccessContent = "数字身份已成功导入";
+ImportSuccessWallet = "钱包账户已成功导入";
+ImportDigitalIdentity = "导入";
+ImportDigitalWallet = "导入钱包";
+ImportSuccessAlert = "您已成功导入数字身份！";
+ImportSuccessWalletAlert = "您已成功导入钱包！";
+ImportFailureAlert = "数字身份导入失败！";
+ImportFailureWalletAlert = "钱包导入失败！";
+ImportFail= "导入失败";
+
+ImportAgain = "重新导入";
+SysSetting = "系统设置";
+
+Language = "语言设置";
+Network = "网络";
+TestNet = "TEST NET";
+OnlineNet = "MAIN NET";
+YES = "确认";
+LanguageSetting = "语言设置";
+NetworkSetting = "网络设置";
+
+Importing = "正在导入";
+AddVerfied = "添加您的区块链证书";
+Realname = "实名认证";
+Identity = "身份认证";
+Social = "社交网络";
+Twitter = "Twitter认证";
+Linkedin = "Linkedin认证";
+Github = "Github 认证";
+Facebook = "Facebook认证";
+
+TwitterClaim = "Twitter认证";
+LinkedinClaim = "Linkedin认证";
+GithubClaim = "Github认证";
+FacebookClaim = "Facebook认证";
+
+Myauthorization= "我的授权";
+Myverifledclaim= "我的区块链证书";
+Digitalidentitymanage= "ONT ID管理";
+Walletmanage= "钱包管理";
+Systemsettings= "系统设置";
+Helpcenter= "帮助中心";
+Aboutus= "关于我们";
+
+Verifiedclaims = "区块链证书";
+NoClaims = "无区块链证书记录";
+Digitalidentitylist = "数字身份列表";
+DigitalWalletlist = "钱包列表";
+WalletManageSuccess = "成功";
+
+PendingVerifiel = "等待认证";
+HistoryVerifiel = "认证记录";
+
+MyIdentity = "数字身份-开启区块链可信生活";
+
+Recieveclaimas = "区块链证书";
+Verifyclaim = "认证区块链证书";
+welcome = "欢迎";
+welcome_tip  = "开启区块链可信生活。";
+homepage  = "主页";
+
+
+CreateTheWallet = "创建新钱包";
+CreateWallet = "创建钱包";
+createShareWallet = "创建共享钱包";
+leadShareWallet ="加入共享钱包";
+WalletName = "钱包名称";
+InputWalletName = "请输入您的钱包名称";
+WalletService = "我已阅读并同意《服务及隐私条款》";
+CreateWalletAlert = "密钥是您的数字钱包的唯一凭证，我们使用金融级加密标准保护您的密钥，请您牢记保护密码";
+CreateWalletPrompt = "正在加密密钥。。。";
+CreateWalletNote = "在使用钱包前请备份您的密钥，\n密钥是您数字钱包的唯一凭证。";
+SuccessWalletAlert = "创建钱包成功";
+FailureWalletAlert = "创建钱包失败";
+MakeCardTitle = "制作可信身份卡片";
+MakeidentityCardTitle = "制作身份卡片";
+
+
+ApplyaClaim = "获取区块链证书";
+ClaimNotice = "新的区块链证书到达通知";
+AddCards = "制作可信身份卡片";
+CreateIdentity = "创建新的数字身份";
+ImportIdentity = "导入数字身份";
+
+IDTitle = "身份";
+AssetTitle = "钱包";
+MeTitle = "我的";
+
+Setasdefault = "设为默认";
+Default = "默认";
+BackUp = "备份";
+ImportdIgitalIdentity = "导入";
+
+WalletBackup = "钱包备份";
+WalletQrcode = "钱包二维码";
+WalletSaveToAlbum = "您的钱包二维码\n已存入您的手机相册\n请妥善保存";
+WalletPleaseBackup = "请妥善备份您的钱包";
+ReceivingCode = "收款码";
+
+OntAddress = "钱包地址";
+CopyWallectAddrss = "复制钱包地址";
+WalletCopySuccess = "钱包地址复制成功。";
+SendEmailSuccess = "发送邮件成功。";
+SendEmailFailed = "发送邮件失败。";
+OntidCopySuccess = "复制成功。";
+WhatIdentity = "什么是可信身份卡片？";
+TheVerfiableCard = "什么是可信身份卡片? 可信身份卡片是多个区块链证书的组合。这些区块链证书来源你的实名认证、社交媒体认证、大学数字学历证书、口碑点评等等";
+KownMore = "了解更多";
+Identities = "身份";
+
+IDApplyClaim = "获取区块链证书";
+IDClaimNotice = "新的区块链证书通知";
+IDAddCards = "添加可信身份卡片";
+IDCreateIdentity = "创建数字身份";
+IDImportIdentity = "导入数字身份";
+
+IDCardTitle = "可信身份卡片";
+Generatingcard = "正在为您生成可信身份卡片...";
+SlectClaims = "选择您想展现在可信身份卡片上的区块链证书";
+AtLeastAone = "(至少选择两项)";
+EmploymentCertification = "在职证明";
+
+Start = "开始";
+LearnMore = "了解更多";
+MakeIdentityCards = "一键制作您的可信身份卡片 分享您的数字身份";
+NOEmploymentcer = "请向您所在的公司申请在职证明。";
+Failtoimport = "导入失败,请输入正确的keystore格式";
+
+CNY  = "人民币";
+USD  = "美元";
+CurrencyUnit = "货币";
+Tradingrecord = "交易记录";
+
+Trustcard = "创建一个基于区块链的可信身份卡片";
+Comingsoon = "即将上线";
+Custmizedidentity = "个性化卡片即将上线";
+
+Seniordeveloper ="职场达人";
+Realnamee ="实名卡片";
+SocialTalent ="社交达人卡片";
+TransfergreaterT= "转账金额大于总金额。";
+TransferZeroNotice= "转账金额不能为0。";
+SwapZeroNotice= "映射金额不能为0。";
+SwapgreaterT= "映射金额大于总金额。";
+
+InfoOnblaock = "区块链信息";
+Toauthenticate = "去认证";
+
+IssuerName = "认证者";
+IssuerONTID = "发行方:";
+CreatTime = "创建时间";
+Confirm = "确定";
+Cancel = "取消";
+Info = "详情";
+InfoOnblack = "区块信息";
+Update = "更新";
+HelpCentre = "帮助中心";
+Whatidentity = "什么是可信身份卡片";
+ONTOprotect = "ONTO 如何保护用户隐私?";
+Selecttwo ="最少选择两项";
+OnchainTrust = "本体认证";
+OnchainTrust1 = "分布科技";
+
+Twitter1 = "Twitter";
+Linkedin1 = "Linkedin";
+Github1 = "Github";
+Facebook1 = "Facebook";
+VerifyONChain = "去本体区块链验证";
+Share = "   分享";
+
+FirstTitle = "综 合 客 户 端";
+FirstSubTitle = "数字身份、数字资产、数据交换、更多。。。";
+SecondTitle = "我 的 身 份 我 做 主";
+SecondSubTitle = "链 接 我 的 各 类 身 份";
+ThirdTitle = "数 据 更 安 全";
+ThirdSubTitle = "基于密码学隐私保护、UMA协议";
+
+Scan = "扫描二维码";
+Scanwallent = "请扫描钱包地址二维码";
+ScanIdentity = "扫描您的ONT ID Keystore二维码";
+ScanShareCode ="请扫描您的共享钱包二维码";
+Scankeystore = "扫描您的钱包Keystore二维码";
+
+History = "历史";
+NewClaim = "新的区块链证书";
+ViewHistory = "查看记录";
+TransactionSuccess = "交易成功";
+TransactionFailure = "交易失败";
+Processing = "处理中...";
+Send = "  发送";
+Get = " 接收";
+
+PleaseInput = "请输入......";
+RealNameAuth = "实名认证";
+RealName = "实名";
+Identity_card = "身份证号";
+RealNameAuthError = "实名认证失败，请重试";
+PleaseTryAgain = "活体检测失败，请重试";
+
+AboutUs = "关于我们";
+Version = "版本";
+CorrectKey = "请输入正确的私钥";
+NoWallet = "无钱包";
+
+Photoimportfailed = "照片导入失败,请重新导入";
+Alreadyin = "数字身份已经存在";
+WalletAlreadyin = "钱包已经存在";
+
+ONTOBriefIntro = "ONTO简介";
+VersionLog = "版本记录";
+
+Beingwritten =   "正在写入区块链";
+FailBeingtoWritten =   "Write to BlockChain failed";
+
+NotificationCentre =  "消息中心";
+More = "更多";
+
+SecondsAgo = "秒前";
+MinutesAgo = "分钟前";
+HoursAgo = "小时前";
+DaysAgo = "天前";
+MonthAgo = "月前";
+YearsAgo = "年前";
+NONotification =  "无通知";
+NOtradingrecord = "无交易记录";
+Delete = "删除";
+
+WalletCanNotDeleted = "默认钱包无法删除";
+IdentityCanNotDeleted = "默认身份无法删除";
+ShareEmail = "请输入分享邮箱";
+
+Pending = "待确认";
+Canceled = "已取消";
+Received = "验证通过";
+
+SenseTimever ="实名认证";
+CFCAVer = "实名认证";
+CFCAVerFai = "认证失败";
+VerAuth ="正在签发";
+CFCAVerWait = "等待确认";
+CFCATryAgain = "重试";
+Systemerror = "系统错误";
+BackUpLater = "立即使用";
+BackUpNow = "备份";
+Status = "状态:";
+PersonInfo = "个人信息";
+WalletTitle = "钱包";
+BlockchainTransaction = "区块链交易";
+WalletAddress = "钱包地址:";
+KeyString = "密钥:";
+Settingauthority = "请在设置中打开访问相册权限";
+ScanQrFail = "扫描二维码错误!";
+sendSuccess = "交易已发出";
+ONGClaim = "领取";
+UNCLAIMEDONG = "可领取";
+NOONG = "可提取的ONG余额不足（可领取/可解绑至少需要有0.05 ONG）";
+CameraRights = "您没有打开相机权限,请在系统设置中打开";
+AlbumRights = "您没有打开相册权限,请在系统设置中打开";
+NetworkAnomaly = "网络异常";
+PASSWORDERROR = "密码错误";
+Netdisconnected = "    网络不给力,请检查网络设置";
+Contacts = "地址簿";
+Done = "完成";
+ScanLogin = "扫描登录";
+
+FillAddress = "请填写钱包地址";
+FillName = "请填写姓名";
+NoContact = "无联系人";
+
+PasswordExpired = "密码已经过期";
+SwitchIdentity = "点击头像切换身份";
+Identitylogin = "身份登录已经失效,请重新输入密码";
+Login = "登录";
+Incorrectpassword = "密码不正确";
+
+Backupmnemonicwords ="备份助记词";
+Pleasebackupthemnemonicwords = "抄写下你的钱包助记词";
+Thosemnemonic = "助记词用于恢复钱包或重置钱包密码,将它准确的抄写到纸上,并存放在只有你知道的安全的地方.";
+Anyonewith = "如有有人获取你的助记词将直接获取你的资产!请抄写下助记词并存放在安全的地方.";
+Understood = "知道了";
+Confirmmnemonic = "确认下你的钱包助记词";
+Mnemonicwordsinorder = "请按顺序点击助记词,以确认你的备份助记词正确.";
+BackupFailed= "备份失败";
+ConFirmFailed = "请检查你的助记词";
+Removethemnemonic = "备份的助记词顺序验证正确,是否从ONTO移除该助记词?";
+
+Keystorefile= "Keystore文件";
+Saveoffline= "离线保存";
+Pleasecopyandpaste= "请复制黏贴 Keystore文件到安全、离线的地方保存。";
+Onlyforscanning= "仅供直接扫描";
+Dontscreeshot= "二维码禁止截图、拍照。仅供用户在安全环境下直接扫描来方便导入。";
+Safeenvironment= "在安全环境下使用";
+Nopeoples= "请在确保四周无人及无摄像头的情况下使用。二维码一旦被他人获取将造成不可挽回的资产损失";
+NOaroundme= "已确认周围无人及摄像头";
+ShowQRcode= "点击显示";
+ExporttKeystore= "ONT ID备份";
+ExporttKeystore1= "导出Keystore";
+Responsible= "请确保已将钱包备份到安全的地方。ONTO不承担任何钱包助记词，keystore文件，私钥丢失。被盗等产生的资产损";
+
+PrivateKey = "明文私钥";
+Mnenomic = "助记词";
+Separatethmnemonic = "助记词，按空格分隔";
+Inputyourprivatekey="明文私钥";
+WIFcontent="WIF文本内容";
+Whatkeystore ="什么是keystore?";
+WhatisPrivatekey ="什么是明文私钥？";
+WhatisWIF ="什么是WIF？";
+WhatisMnemonic = "什么是助记词?";
+EnterMnemonic="请输入助记词";
+
+HEXformat="请输入64位HEX格式的密钥";
+WIFtext ="请输入52位WIF格式的私钥";
+
+SelectAlertkeyStorePassWord = "请输入6-18位keystore密码";
+ExportKeystore = "导出keyStore";
+TotalAssets = "估算金额";
+Contactname = "姓名";
+ReceiverAddress = "收款人地址";
+Enterkeystore = "请输入keyStore";
+Backupmnemonic = "请您先备份助记词,更换设备,丢失钱包或忘记密码时,您可以通过助记词恢复钱包,重置密码.";
+SwitchWallet ="切换钱包";
+Edit = "编辑";
+Writtenitdown = "开始验证";
+Nextscreen= "确认已抄写下助记词，即将开始验证。";
+Thesephrases ="请抄写下这些助记词";
+Correctorder = "请按顺序点击助记词。";
+//确认已抄写下助记词,即将开始验证
+Gotit="我知道了";
+Beingwatched =  "请留意您的周边环境！";
+Toassess= "请评估您的周边环境是否安全？留意附近的窗户，隐藏的摄像机，周围的人群。";
+Anyonewith  = "注意！任何人持有您的备份助记词，即可访问或花费您的资产。";
+IUnderstand= "我知道了";
+Screenshotsarenotsecure= "请不要截图";
+Physicalpaper= "请用笔和纸抄写下您的钱包备份助记词。截图可能会被手机中的其它App访问。";
+
+Referenceonly = "价格基于第三方交易所数据估算,仅供参考";
+OK ="好的";
+Name = "钱包名称";
+Password = "密码";
+ActivateitA= "*请备份钱包，激活使用。";
+Gotobackupwallet = "前往备份钱包";
+Export = "导出";
+Copy = "复制";
+CopyKeystore = "复制 Keystore";
+Creating = "创建中";
+
+
+IdHelp = "  我该如何使用它？";
+IdComing = "敬请期待";
+IdProgress = "签发中";
+IdExpired ="已过期";
+WhatCertification = " 什么是 %@ 证书?";
+authStatus = "状态";
+getAuthCert = "获取认证";
+CFCArealName = "真实姓名";
+CFCAName = "姓名";
+CFCANameAlert = "你的名字";
+CFCAId = "身份证";
+CFCAIdAlert = "身份证号码";
+Renew = "更新";
+SwithId = "切换身份";
+BUId = "备份身份";
+New = "创建";
+Switch = "切换";
+Upwallets = "最多可以创建6个钱包";
+Next1 = "下一步";
+Donttakescreenshots = "不要将Keystore备份信息截图或拍照存储! 并确保您的周围没有其他人或摄像头.";
+Later = "稍后再说";
+BackUpNotice = "备份好了吗";
+
+IdExpiredTime = "过期于 %@";
+ONTIDCreating = "正在写入区块链";
+ONTIDInfo = "什么是ONT ID?";
+ONTIDDec = "ONT ID 是区块链世界的通行证，\n基于去中心化身份标识协议，实现现实世界中的人财购物车在链上的标识、认证和通证。";
+
+CreateFailed = "失败";
+WaitingFor = "正在上链";
+EnterONTIDPwd = "输入 ONT ID 密码";
+ONTImport = "导入";
+Created = "创建于";
+ExpiresAt = "过期于";
+ImportAIdentity = "导入 ONT ID";
+keystoreImport = "导入ONT ID Keystore";
+IdentityName = "身份名称";
+UserName = "用户名";
+ONTIDPWD ="ONT ID密码";
+SurePWD ="确认密码";
+createONT = "创建";
+createOntId = "创建 ONT ID";
+ontstart = "开始";
+OntID = "区块链证书";
+Authorization ="CFCA";
+authInfo = "CFCA将认证你填写的个人身份信息，没有你的授权，任何人都无法获取你的隐私信息。";
+sensetimeInfo = "商汤科技将认证你填写的个人身份信息，没有你的授权，任何人都无法获取你的隐私信息。";
+authInfoDetail = "中国金融认证中心（China Financial Certificaiton Authority, 简称CFCA）是本体网络重要的信任锚之一。\
+\nCFCA是经中国人民银行和国家信息安全管理机构批准成立的国家级权威安全认证机构。\
+\nCFCA实名认证信任锚是本体网络中将法律信任和技术信任相结合的重要环节。完成认证将增强您的区块链数字身份的真实性，可验证性。";
+identityBackL ="ONT ID需要备份";
+passwordLB ="ONT ID密码";
+
+passwordLBText = "输入密码";
+nameLB = "用户名";
+addressLB ="地址";
+NewaddressLB = "地址";
+PWD ="密码";
+InputWalletPWD = "请输入钱包密码";
+emptyName ="真实姓名为空";
+emptyID ="身份证号码为空";
+IDNumber ="身份证号码格式错误";
+CorrectIDNumber ="身份证号码格式错误";
+Clear = "清空";
+Switchingidentities= "请确保您的身份已经备份,方便下次登入.切换身份后,不影响您使用钱包";
+backupWallet ="备份成功！";
+recoveryPhrase ="请将抄写的助记词放置在安全的地方，妥善保管。软件删除后，可凭借助记词恢复您的资产。 ";
+iknow ="知道了";
+
+welcome_1_title ="掌控你的身份";
+welcome_1_content ="建立一个加密数字身份，\n基于本体区块链，还你数据自主权。";
+welcome_2_title ="传递你的信任";
+welcome_2_content ="获得基于区块链的授权和评价；\n一次授权，多次使用";
+CorrectName ="命名仅支持中英文、数字";
+
+walletAlert = "钱包密码用于加密保护私钥，以及转账、调用合约等，非常重要。\nONTO不存储您的密码，也无法帮您找回，请务必牢记。";
+identityAlert ="ONT ID密码用于保护您的身份信息。\nONTO不存储您的密码，也无法帮您找回，请务必牢记。";
+
+AboutONTO = "关于ONTO";
+SupportandFeedback = "支持和反馈";
+Email = "联系邮箱";
+SecuritySetting = "安全设置";
+TouchID = "触摸ID";
+FaceID = "面容ID";
+Afterverify = "验证您的%@后，\n您可以使用它快速安全地登录ONTO。";
+TouchIDis = "%@仅适用于此设备";
+TouchIDLoginONTO = "%@ 登录 ONTO";
+SettingTouchID ="请去您的设备“设置>密码ID”里去设置激活它";
+ONTIDUnLock = "ONT ID 解锁";
+WalletUnLock = "Wallet 解锁";
+WalletLogin = "Wallet 登录";
+ONTIDLogin = "ONT ID 登录";
+Newversion = "有新版本%@可用 ,当前版本不支持";
+Newversion1 = "有新版本可用, 版本号:%@";
+Advancedfeesettings = "高级费用选项";
+CustomeONGlimit = "ONG上限";
+CustomeONGPrice = "ONG价格";
+OngBlance = "Ong余额";
+NotenoughONG = "没有足够的 ONG";
+transactionfee ="您确认要为此次交易支付 %@ ONG 交易费用吗？";
+
+
+ShareWalletName = "共享钱包名称";
+ShareWalletNamePlaceholder ="共享钱包名称";
+ShareSelect = "请选择";
+ShareAdd = "请添加";
+ShareAddShort = "添加";
+TotalCopayersNum = "参与总人数";
+RequiredCopayersNum = "需要签名人数";
+Copayers ="参与者";
+shareRule ="签名规则:[%ld-of-%ld]";
+AddressesCopayersAll = "所有参与者钱包地址";
+sharePublicKey = "对应公钥";
+NameOfCopayer = "参与者名称%ld";
+JoinShareWallet ="加入";
+shareAddress ="地址:";
+shareWalletAddress ="共享钱包地址:";
+shareWalletAddressShort ="共享钱包地址";
+shareWalletAddressNew ="请输入共享钱包地址";
+publicKeys ="共享钱包公钥:";
+YourWalletAddress ="您的钱包  地址";
+YourWalletPSW ="您的钱包  密码";
+Redeem ="Redeem";
+Completed ="已完成";
+sharePending ="签名中";
+PaymentConfirmation ="支付";
+ShareTo ="收款方";
+ShareFrom = "付款方";
+ShareFees = "费用";
+SharedWallet ="共享钱包";
+ShareTime ="时间";
+ShareSent ="已发送";
+ClaimableONG ="可提取";
+ShareAmount ="金额";
+Sponsor ="发起人";
+DragSequence ="拖拽确定签名顺序";
+ShareWalletExist ="已存在该共享钱包";
+ShareWalletExportError ="共享钱包不能导出";
+ShareWalletDelete ="删除共享钱包";
+NotShareWalletCopayers ="不是该共享钱包成员,无法加入";
+JoinShareWalletSuccess ="导入共享钱包成功";
+MainNetONT = "主网ONT映射";
+swap_tip1 ="欢迎使用“一站式”主网ONT切换。用户可以在这里将NEP-5 ONT映射成主网ONT。映射将在一个月内完成，您可登录 swap.ont.io 查询映射状态。";
+swap_tip2="您只需要使用以下步骤执行操作：";
+swap_tip3="第一步：导入NEO钱包的私钥创建钱包；";
+swap_tip4 ="第二步：点击下面的按钮发起映射；";
+swap_tip5="第三步：查看映射进度。";
+swap_tip6 = "";
+
+SwapAmount = "映射金额";
+NEOBalance = "NEO余额:";
+WalletPassword = "钱包密码";
+shareAddress ="地址:";
+
+Swap ="映射";
+MainNetONTTokenSwap ="主网ONT映射";
+RequestAmount="申请金额";
+SwapAmount ="映射金额";
+RequestTime ="申请时间";
+SwapTime ="映射时间";
+SwapProcessing ="进行中";
+SwapSucceed ="成功";
+SwapFail ="失败";
+swapAlert ="映射将在24小时内完成，您可登录 https://swap.ont.io 查询映射状态。";
+Notice = "通知";
+Eachredeem = "每次提取将消耗0.01 ONG. ";
+Redeem = "提取";
+RootDevice =  "你的手机已ROOT，存在巨大安全隐患，请尽快切换到安全环境。";
+Versionincompatible = "当前系统版本不兼容，请升级ios版本。";
+ShareComplete ="完成";
+ListNoRecord ="无记录";
+
+ShareNoCommonWallet ="请先导入您已加入共享钱包的私人钱包，然后发起转账。";
+InputAllPerple ="请先选择参与总人数";
+InputRequiredPerple ="请选择需要签名人数";
+FirstSelectAllPerple ="请先选择参与总人数";
+normalPublicKey ="公钥:";
+WalletKeySuccess ="钱包公钥复制成功。";
+TryAgain = "重试";
+createWalletSuccess ="创建共享钱包成功";
+
+IMStep1="步骤 (1/2): 身份信息";
+IM_Step2="步骤 (2/2): 身份信息";
+IM_FullName="名";
+IM_Lastname="姓";
+
+IM_Email="邮箱";
+IM_ZoneCode="(区域代码)";
+IM_PhoneNumber="手机号码";
+IM_Passport="护照";
+IM_UploadDocument="上传文件";
+IM_AllowedFile="支持格式: PDF, PNG, JPEG, TIFF, GIF。 \n单个文件尺寸: 400KB-4MB。";
+IM_ChoseFromAlbum = "相册";
+IM_Takeaphoto = "拍照";
+
+IM_EnterFuLLName = "请输入您的名字";
+IM_Number ="请输入您的证件号码";
+IM_EnterEmail = "请输入正确的邮箱";
+IM_EnterPhoneNumber = "请输入您的手机号码";
+IM_Submit = "下一步";
+IM_Submit1 = "提交";
+
+IM_Introduce = "IdentityMind提供SaaS平台，可在全球范围内构建，维护和分析数字身份。IdentityMind允许公司进行身份验证，基于风险的身份验证，监管识别，最终检测和防止合成身份以及被盗身份。通过交易监控扩展我们的平台，以防止电子商务欺诈，反洗钱和反恐融资（CFT）。 IdentityMind获得专利的eDNA&#8482技术，不断验证和冒险在全球范围内对数字身份进行评分，以确保客户入职和整个生命周期内的全球业务安全和合规性。 我们的平台安全地跟踪每笔交易中涉及的实体（例如，消费者和商家入职，账户发起，汇款，在线支付等），以建立独特的数字身份信任声誉。";
+IM_GLOBAL =  "IdentityMind GLOBAL";
+IM_Nationality = "国籍";
+IM_Connect = "连接我的真实身份";
+IM_Legal = "真实身份是经过权威的数字身份认证机构认证成功的，可信任、可验证的身份凭证，真实身份信息通过密码学保护，并采用本地离线存储，以确保其安全性。所有身份信息只能由拥有者手动授权后才可以被另一方使用。";
+IM_Choose = "选择国籍";
+IM_Choose1 = "请选择您的国籍";
+IM_IDCard = "身份证";
+IM_Passort = "护照";
+IM_DriverLicense = "驾照";
+IMNumber = "号码";
+IM_Success = "过期时间:";
+IM_InReview = "审核中";
+Im_Fail = "失败";
+
+IM_upLoadImage = "请上传图片";
+IM_country = "国家:";
+IM_DoucmentType = "证件类型:";
+IM_Name = "姓名:";
+IM_Email1 = "邮箱:";
+IM_phone = "电话:";
+
+
+IMStep3 ="STEP (3/3): Confirmation";
+byCOT = "By";
+AuthorizationList = "授权清单";
+COTNeed = "COT 授权需要您的护照信息、身份证信息、或驾照信息。";
+PassportInformation ="Passport Information";
+PassportInfo ="您的数字身份数据将从您的手机中点对点的发送给第三方，用于KYC信息认证凭证。";
+COTFirst = "您还未进行认证，请前往认证。";
+COTAlert ="  自主掌控个人数据";
+COTGET ="认证";
+SelectAll ="Select All";
+cotRetry ="重试";
+ClaimDetails ="认证详情";
+Claimstatus1 ="正在审核您的身份信息，\n 审核时间不超过24小时。";
+Claimstatus2 ="审核失败！";
+Claimstatus22 ="失败";
+Claimstatus3 ="审核成功！\n 您的ONTID已被激活！";
+IMInReview ="审核中";
+IMReason = "失败原因";
+GettheVerificationClaim = "获取可信声明";
+WhatisVerificationClaim =" 什么是可信声明？";
+
+IdentityMindCertification =" 什么是IdentityMind认证?";
+IMSuccess = "验证通过";
+
+
+IMCertification = "Certification";
+IMNationality ="Nationality";
+IMName ="Name";
+IMEmail = "Email";
+IMPhone = "Phone";
+COTPassword ="您的数字身份数据将从您的手机中点对点的发送给第三方，用于KYC信息认证凭证。";
+IMIdentityInformation ="身份信息";
+IMById ="";
+IMCFCA ="";
+IMSenseTime ="";
+IMGetCert ="前往认证>>";
+IMYourcountry = "您的国家不支持这种证件";
+IMScanAuthorize ="扫码授权";
+IMCeshi = "测试";
+COTCONFIRMAUTHORIZE = "确认&授权";
+COTBlockchain = "本体区块链记录";
+COTCreated = "创建时间";
+COTExpireTime ="过期时间";
+IM_PassportCert = "护照证明";
+IM_IDCardCert = "身份证证明";
+IM_DriverLicenseCert ="驾照证明";
+COTTryAgain = "再试一次";
+COTSucceed ="授权已完成";
+COTFailed ="授权失败";
+ExistShareWallet ="该共享钱包已存在。";
+shareInputName ="请输入\"参与者名称%ld\"。";
+shareInputKey ="请输入\"参与者公钥%ld\"。";
+WrongKey ="\"参与者公钥%ld\"错误";
+SameKey ="\"参与者公钥%d\" 和 \"参与者公钥%d\" 相同。";
+waitboundong ="已解绑";
+NamePlaceHolder ="1-12位字符，仅支持中文、英文，及数字。";
+waitAlertInfo ="已分配";
+redeemComing ="提取功能敬请期待";
+PressingRedeem = "我们将自动为您发起一笔1个ONT的自我转账，将已解绑的ONG转换成“可提取”，并提取到您的ONG余额";
+Rule ="签名规则";
+
+HEXformat64 = "导入失败！请输入64个字符。";
+WIFtext52 = "导入失败！请输入52个字符。";
+Mnemonic12 = "导入失败！请输入12个助记词。";
+keystoreA =  "导入失败！请输入正确的keystore格式";
+
+invalidQRCode = "无效二维码";
+sceneUnusual = "场景方通信异常";
+IMIDcard =  "请将证件置于此区域";
+IMChoosephoto = "选择照片";
+IMRetakephoto = "重新拍照";
+NewMobile = "手机号码";
+mobileInfo = "只有通过您本人授权，您的手机号码才可被分享。";
+mobileNext = "下一步";
+newPhone = "您的手机号码";
+newSearch = "搜索";
+VERIFYMOBILE = "验证我的手机";
+VERIFYEMAIL = "验证我的邮箱";
+mobileSendCode ="您的验证码已发送，请查收短信收件箱，注意不要把验证码分享给他人。";
+emailSendCode ="您的验证码已发送，请查收您的收件箱或垃圾邮件，注意不要把验证码分享给他人。";
+emailSendInfo ="只有通过您本人授权，您的邮箱地址才可被分享。";
+verificationcode =" 没有收到验证码？";
+newClaimDetail ="认证详情";
+NEWUPDATE = "更新";
+myClaimD = "我的手机号码";
+newEMAIL = "邮箱";
+YourEmail = "您的邮箱";
+newResend = "重发";
+MyEmail = "我的邮箱";
+failReason = "Network connection error";
+newZoneCode = "(区号)";
+newSec ="秒";
+newBlockchainRecord ="本体区块链记录";
+mobileError ="手机号码错误";
+Networkerrors = "网络错误";
+newCotNeed ="COT needs your";
+newAnd ="and";
+newAuth ="for authorization.";
+newCotInfo ="COT needs your mobile and email for authorization.";
+newMobile ="Mobile";
+newEmail ="Email";
+newClaimDetails ="认证详情";
+IMStatusSuccess = "验证通过";
+codeError ="验证码输入不正确";
+newAlert =" 了解IdentityMind认证支持范围";
+mobileSupport = "手机短信支持列表";
+newALBUM = "相册";
+newCANCEL = "取消";
+takePhoto = "拍照";
+takeInfo = "为了提高验证成功率，请您对焦证件边缘拍摄。";
+ONTIDLOGIN ="ONT ID登录";
+JOHNPAPAINFD = "JOHNPAPAINFD";
+newLoginID ="您的ONT ID:";
+loginAlert = "您的ONT ID已在其它设备登录，请重新登录本设备。";
+LOGIN = "登录";
+CREATENEWONTID = "创建新的ONT ID";
+ONTIDLOGIN ="ONT ID登录";
+SWITCH = "切换";
+NewPassword ="输入您的ONT ID密码";
+NEWCONFIRM ="确定";
+newError ="密码错误!";
+
+
+Coin = "Coin";
+candy_login = "登录";
+candy_box = "糖果盒";
+airdrop = "空投倒计时：";
+white_paper = "White Paper";
+twitter    = "Twitter";
+telegram = "Telegram";
+website = "网站：";
+missions = "任务";
+join_airdrop = "加入airdrop";
+candy_congratulations = "恭喜";
+candy_account = "账户";
+candy_balance_title = "余额";
+candy_record_title = "记录";
+candy_address_title = "地址";
+no_balance = "暂无";
+no_record = "暂无";
+no_address = "暂无";
+candy_get_cert = "获得认证";
+withdraw = "提取";
+cert_desc = "请先获取认证，成功后可提现。";
+withdraw_amount = "提取金额：";
+withdraw_balance = "余额：";
+withdraw_next = "下一步";
+withdraw_title = "请输入ONT ID密码";
+scan_wallet = "扫描钱包";
+no_can_scan = "无权限扫描";
+no_network = "网络不可用";
+withdraw_success = "申请提现成功";
+missions_success = "创建任务成功";
+related_ont_id = "关联ONT ID：";
+enter = "进入";
+candy_hot = "热门";
+candy_ongoing = "进行中";
+candy_expired = "已过期";
+candy_obtained = "已领取";
+candy_confirm = "确认";
+candy_confirm_withdraw = "确认 & 提取";
+candy_lasting_time = "活动时间:";
+candy_login_desc = "ONT ID是本体网络的去中心化数字身份，区块链SSO（Single Sign On）解决方案，用户只需要拥有ONT ID就可以访问所有相互信任的应用系统，每一次对ONT ID的操作都需要用户本人主动授权。ONT ID使用简单，安全性高，同时引入了密码学技术，实现了可验证声明的隐私数据保护。";
+candy_coming_tomorrow = "明天再来";
+candy_event_over = "活动已结束";
+candy_event_obtained = "已领取";
+candy_got_title = " 您已从";
+candy_from      = "来自";
+candy_withdraw_noaddress = "没有提币地址";
+candy_withdraw_wrongaddress = "格式不对!";
+candy_get  = "领取";
+candy_project = "项目";
+candy_input = "输入";
+candy_airdrop_rule = "空投规则";
+candy_kSeverState_error = "服务器状态异常";
+sensetime ="商汤";
+shangtangInfo = "商汤科技SenseTime是全球领先的人工智能平台公司，同时也是“全球最具价值的AI创新企业”。公司总融资额超过16亿美元，估值超过45亿美元。主要业务是计算机视觉技术以及深度学习算法，是计算机视觉和深度学习领域的算法提供商。商汤成为中国最大的AI算法提供商。依托商汤科技世界领先的人脸识别技术，提供“云+端”的一体化解决方案，包括软件SDK、云服务和身份验证一体机硬件终端产品。通过活体检测、证卡识别、人脸比对等功能，确保用户身份的真实性。";
+Tid = "Tid";
+AUTHORIZATIONSUCCESS= "授权成功！";
+AUTHORIZATIONSUCCESSInfo = "您的信息已成功发送至第三方。您可以在第三方确认最终结果。在授权过程中，本体网络将不会留存您的任何个人隐私数据。";
+AUTHORIZATIONFAILED ="授权失败!";
+AUTHORIZATIONFAILEDInfo = "您的授权信息不符合第三方的要求，请检查您的信息并重试或联系第三方。在授权过程中，本体网络将不会留存您的任何个人隐私数据。";
+TRYAGAIN ="重试";
+ACCOUNT = "账户";
+
+SAVETODROPBOX ="保存到 DROPBOX";
+boxInfo ="Dropbox是一个网络存储服务，可通过电脑、手机或平板电脑查看或存储文件，而且您在任意设备上所做的更改会自动同步至其他所有设备。借助Dropbox的安全性功能，您不仅可控制哪些人可访问您的文件，当设备丢失时还可清除数据，在需要时恢复文件。使用Dropbox一键备份您ONT ID的keystore信息和所有身份认证信息，使用ONT ID将变得非常方便。更快速、便捷的导入导出，在方便使用的同时，又不会牺牲ONTO去中心化的特点，由用户掌握自己的数据。";
+LOGINDROPBOX = "登录 DROPBOX";
+boxcopy ="Keystore 复制成功。";
+boxLoginS ="Dropbox 登录成功";
+BACKUP = "备份";
+BackupS ="备份成功";
+ONTIDIMPORT = "ONT ID 导入";
+IMPORTFROMDROPBOX ="从 DROPBOX 导入";
+BoxIMPORT = "导入";
+Importsuccessfully = "导入成功";
+RESTORE ="导入";
+CREATENEWONTID ="创建新的ONT ID";
+OntSTART = "开始";
+BACKUP = "备份";
+CONGRATULATION = "恭喜!";
+candyWInfo = "你现在可以提取你账户上的糖果了";
+CHECKMYACCOUNT = "检查我的账户";
+NewWITHDRAW = "提取";
+dropAlert ="请选择一个keystore文件后导入";
+ListOnt = "ONT ID:";
+AUTHORIZATIONS = "授权记录";
+AUTHLIST = "认证记录";
+RECORD ="记录";
+emptyAuth = "您的授权记录为空。";
+ThirdPartyName = "第三方名称";
+AuthorizationNumber = "授权编码";
+AuthorizationContent ="授权内容";
+AuthONTID ="ONT ID";
+AuthorizationTime ="授权时间";
+PUMPKIN ="南瓜";
+SYNTHESIZ = "合成";
+CORAL ="CORAL";
+pumSend = "发送";
+TransactionLog = "交易记录";
+PumpkinRed     ="红南瓜";
+PumpkinOrange  ="橙南瓜";
+PumpkinYellow  ="黄南瓜";
+PumpkinGreen   ="绿南瓜";
+PumpkinIndigo  ="靛南瓜";
+PumpkinBlue    ="蓝南瓜";
+PumpkinPurple  ="紫南瓜";
+PumpkinGolden  ="金南瓜";
+pumpkinCongratulations ="恭喜你! \n你收到了一个金色的南瓜。";
+pumWhat ="什么是\"南瓜\" ？";
+OntAlert = "请确认ONTO已经有满足条件的钱包账户（一旦满足条件，任务将自动完成）";
+tokenAlert = "具体提币到账时间请参考项目方活动规则说明";
+
+Shufti = "Shufti";
+Shufti_Introduce = "Shufti Pro于2017年成立，提供下一代端到端身份验证服务。Shufti Pro是一个SAAS产品，提供KYC和AML验证作为其基本操作特性。Shufti Pro的人工智能混合技术能够以99.6%的精度验证全球70亿人的身份信息。";
+NOWALLET = "异常:无钱包";
+SHUFTIPRO = "SHUFTI PRO";
+ShuftiGETCERT = "获取认证";
+GOON = "继续";
+BACK = "返回";
+ShuftiInfo = "认证费用为 %@ ONG,请确保您的钱包内有充足的余额。";
+DOCUMENTTYPE = "文档类型";
+PAYMENT = "付款";
+ShuftiFrom = "付款方";
+ShuftiTo = "收款方";
+NotSupport = "此付款不支持共享钱包";
+CERTIFICATIONS = "认证";
+noSfp = "您的认证记录为空。";
+WhatSfp = " 什么是Shufti Pro认证?";
+SFee = "手续费";
+SFPSL =" 了解 Shufti Pro 认证支持范围";
+calimDone = "完成";
+AuthFail = "失败";
+AuthSuccess = "成功";
+
+authMore = "最多可选 %@ 个授权认证,如需添加该项认证,请先取消之前选择的某一项认证";
+authShao = "最少需选 %@ 个授权认证";
+
+HYPERDRAGONS = "斗龙";
+gen = "代";
+dragon = "龙";
+dragonNone = "技能: 无";
+ONTOPay = "ONTO-支付";
+
+payTest = "项目方: %@";
+verifySuccess = "验证项目方的签名成功";
+verifyFailed = "验证项目方的签名失败";
+loginInfo = "消息:%@";
+toSign ="签名";
+sendSign ="签名并发送";
+noPayerWallet = "无相应付款钱包,请先添加钱包。";
+payVerify = "验证您的身份";
+payLoginNeed = "选择您的登录钱包";
+LoginReq = "登录要求:";
+WillPay = "您将要支付 ";
+payLogin = "Login";
+payInvoke = "Invoke";
+
+paySend = "发送";
+preSend = "预执行结果";
+
+preInput = "请输入密码以预执行交易";
+payLoginName = "登录钱包";
+
+
+dappLogin = "本体dApp登录请求";
+
+dapppay = "本体dApp交易请求";
+dappneed = "交易要求:";
+dapppre = "预执行获取交易详情";
+dappsure = "确认交易并发出";
+dappWallet = "付款钱包";
+whatPre = " 什么是\"预执行\"";
+fight_power = "战力";
+sexLB = "性别: ";
+sexMan = "公";
+sexGial = "母";
+propLB = "属性: ";
+propwater = "水";
+propfire = "火";
+propwind = "风";
+propland = "地";
+dragonlevel = "等级: ";
+dragonPower = "战力: ";
+payNot = "余额不足";
+
+newAddress = "地址:";
+TOKENLIST = "资产列表";
+tokenMANAGE = "选择";
+MANAGETOKEN = "资产管理";
+SEARCHTOKEN  = "SEARCH TOKEN";
+Discovery = "DApp";
+DappBrowser = "DApp浏览器";
+DappBrowserPlaceholder = "输入DApp网址";
+DappBrowserButtonTitle = "清除全部记录";
+DappSearchHistoryTitle = "搜索历史";
+DappCancelButtonTitle = "取消";
+DappInputWalletTitle = "导入钱包";
+DappCreateWalletTitle = "创建钱包";
+
+
+UnLoginLB = "未登录";
+WIFBackup = "请复制粘贴 WIF 文件到安全、离线的地方保存";
+WIFCopy = "复制 WIF";
+WIFCopySuccess = "WIF 复制成功";
+Introduce_1_top = "掌控你的身份";
+Introduce_2_top = "安全简单管理资产";
+Introduce_3_top = "趣味应用发现";
+Introduce_1_content = "基于本体区块链，创建去中心化加密数字身份，还你数据自主权";
+Introduce_2_content = "用户自主管理资产私钥，资产自己掌握，一键添加数字资产，轻松管理";
+Introduce_3_content = "趣味应用集合，轻松体验各类 DApp 给您带来的趣味和收益";
+IntroduceStart = "开始使用";
+//Tab
+TabOntIdTitle = "ONT ID";
+TabWalletTitle = "钱包";
+TabDAppTitle = "DApp";
+TabMineTitle = "我的";
+wakePay = "支付";
+payAmount = "支付金额";
+payFee = "手续费";
+toAddress = "接收地址";
+AddressBalance = "地址余额";
+paySure = "支付确认";
+surePay = "确认支付";
+DappChangeWalletTitle = "切换钱包";
+
+newCreateOntId = "创建 ONT ID";
+NewONTIDDec = "ONT ID 是区块链综合账户，可以管理资产、身份、数据等多维信息，您可以使用此账户登录任何支持 ONT ID 登录的应用";
+experienceDApp = "创建/导入钱包，\n即可体验 DApp";
+experienceWake = "创建/导入钱包";
+payNext = "下一步";
+ChangeWalletDApp = "切换钱包，\n即可体验 DApp";
+shareWalletAddressError = "共享钱包地址错误";
+NotenoughCarryONG = "没有未提取的 ONG";
+
+//DApp
+DappRecommended = "推荐";
+DappRooperation = "合作应用";
+DappDappList = "应用列表";
+DappStatement = "您将跳转至第三方dApp页面，在第三方dApp上的使用行为将适用该第三方dApp的《用户协议》和《隐私政策》，由该第三方dApp直接并单独向您承担责任";
+DappStatementTitle = "免责声明";
+DappStatementAgree = "同意";
+DappStatementCancel = "取消";

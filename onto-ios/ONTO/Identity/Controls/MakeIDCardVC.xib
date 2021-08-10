@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MakeIDCardVC">
+            <connections>
+                <outlet property="generationBtn" destination="YLK-an-z2N" id="Jfu-7T-KWt"/>
+                <outlet property="headerLabel" destination="TRe-fa-cPd" id="Boa-MU-afa"/>
+                <outlet property="headersubLabel" destination="h2g-O0-PDe" id="eAk-O9-DuV"/>
+                <outlet property="myTable" destination="qHP-se-W6c" id="yVg-kS-bDd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qHP-se-W6c">
+                    <rect key="frame" x="0.0" y="65" width="375" height="452"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egk-q5-aMT">
+                    <rect key="frame" x="0.0" y="580" width="375" height="87"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLK-an-z2N">
+                            <rect key="frame" x="14" y="18" width="347" height="50"/>
+                            <color key="backgroundColor" red="0.070588235294117646" green="0.49411764705882355" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Xjq-Fp-vJz"/>
+                            </constraints>
+                            <state key="normal" title="generate a identity card">
+                                <color key="titleColor" red="1" green="0.99039347107226383" blue="0.99524001243819982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="generateAction:" destination="-1" eventType="touchUpInside" id="Hjm-R6-7jC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="YLK-an-z2N" secondAttribute="trailing" constant="14" id="6CQ-nn-Vo3"/>
+                        <constraint firstAttribute="height" constant="87" id="JB6-g1-BNW"/>
+                        <constraint firstAttribute="bottom" secondItem="YLK-an-z2N" secondAttribute="bottom" constant="19" id="abp-hq-88D"/>
+                        <constraint firstItem="YLK-an-z2N" firstAttribute="leading" secondItem="egk-q5-aMT" secondAttribute="leading" constant="14" id="l3l-Mp-LWz"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="564-48-I5F">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="选择您想展现在身份卡片上的可信证明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRe-fa-cPd">
+                            <rect key="frame" x="25" y="13" width="342" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="1" green="0.99039347109999998" blue="0.99524001240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(至少选择二项)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2g-O0-PDe">
+                            <rect key="frame" x="25" y="32" width="295" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                            <color key="textColor" red="1" green="0.99039347109999998" blue="0.99524001240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.079921193420886993" green="0.58338063955307007" blue="0.84528595209121704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="jF3-Tx-Uyb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qHP-se-W6c" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="8lA-d5-jll"/>
+                <constraint firstItem="564-48-I5F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="DsR-7d-gdD"/>
+                <constraint firstItem="egk-q5-aMT" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="Lix-jw-lmI"/>
+                <constraint firstItem="qHP-se-W6c" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="QtU-DC-PMi"/>
+                <constraint firstItem="564-48-I5F" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="SK5-ZI-aZK"/>
+                <constraint firstItem="egk-q5-aMT" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="W01-4F-E5i"/>
+                <constraint firstItem="564-48-I5F" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="WeB-6s-71d"/>
+                <constraint firstItem="qHP-se-W6c" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" constant="-150" id="qWL-N1-eHs"/>
+                <constraint firstItem="qHP-se-W6c" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="65" id="ryh-my-0Ua"/>
+                <constraint firstItem="egk-q5-aMT" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="unL-L5-q6O"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-272.5" y="-136.5"/>
+        </view>
+    </objects>
+</document>

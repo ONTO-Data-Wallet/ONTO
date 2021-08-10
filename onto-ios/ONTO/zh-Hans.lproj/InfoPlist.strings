@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  ONTO
+
+  Created by Apple on 2018/9/14.
+  Copyright © 2018年 Zeus. All rights reserved.
+*/
+
+NSMicrophoneUsageDescription = "ONTO需要访问麦克风用于播放活体检测提示音";
+
+NSCameraUsageDescription = "ONTO需要通过相机拍摄证件，活体检测及扫描二维码";
+
+NSPhotoLibraryUsageDescription = "ONTO需要访问相册选取并上传证件照";
+

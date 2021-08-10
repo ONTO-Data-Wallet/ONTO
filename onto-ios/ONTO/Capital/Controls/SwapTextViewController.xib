@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwapTextViewController">
+            <connections>
+                <outlet property="confirmB" destination="IlL-6v-iwc" id="See-17-k4F"/>
+                <outlet property="tipLabel1" destination="FDe-cy-MLH" id="vfq-Ad-eMG"/>
+                <outlet property="tipLabel2" destination="JdY-Bq-dDh" id="rTh-WA-B0b"/>
+                <outlet property="tipLabel3" destination="fi3-GG-HOW" id="TXQ-7d-q5N"/>
+                <outlet property="tipLabel4" destination="5ZC-0K-d3z" id="S9Z-0q-3Uf"/>
+                <outlet property="tipLabel5" destination="0ul-Dc-xWR" id="ZsK-Ff-udG"/>
+                <outlet property="tipLabel6" destination="jOV-O0-iNG" id="csO-1o-way"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here is ONE-STOP MainNet ONT Token Swap. Users will be able to exchange NEP-5 ONT for ONT on the Ontology MainNet. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDe-cy-MLH">
+                    <rect key="frame" x="25" y="47" width="325" height="50.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just do as follows," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdY-Bq-dDh">
+                    <rect key="frame" x="24" y="105.5" width="326" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step One, Import private Key (From your NEO wallet) to create a wallet." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fi3-GG-HOW">
+                    <rect key="frame" x="24" y="144" width="325" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.10980392160000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step Three, You'll see the process detail. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ul-Dc-xWR">
+                    <rect key="frame" x="24" y="226.5" width="325" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step Two, Click &quot;Token Swap&quot; button to issue swap.  " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ZC-0K-d3z">
+                    <rect key="frame" x="25" y="185.5" width="326" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now , Please focus on wallet balance which is on ontology mainnet." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOV-O0-iNG">
+                    <rect key="frame" x="26" y="261" width="325" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlL-6v-iwc">
+                    <rect key="frame" x="1" y="619" width="375" height="48"/>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.94901960780000005" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="JvG-KD-Hxm"/>
+                        <constraint firstAttribute="height" constant="48" id="tP2-H5-rY7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <state key="normal" title="Swap">
+                        <color key="titleColor" red="0.039215686270000001" green="0.64705882349999999" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="confirmClick:" destination="-1" eventType="touchUpInside" id="Yxn-JB-wKb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IlL-6v-iwc" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="6x4-6M-Mny"/>
+                <constraint firstItem="fi3-GG-HOW" firstAttribute="top" secondItem="JdY-Bq-dDh" secondAttribute="bottom" constant="21.5" id="7yU-Ky-6f3"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="JdY-Bq-dDh" secondAttribute="trailing" constant="25" id="92e-uK-VXV"/>
+                <constraint firstItem="FDe-cy-MLH" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="27" id="9iF-3k-5Qk"/>
+                <constraint firstItem="FDe-cy-MLH" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="25" id="AYF-8U-LL4"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="5ZC-0K-d3z" secondAttribute="trailing" constant="24" id="Eqb-ip-pFE"/>
+                <constraint firstItem="0ul-Dc-xWR" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="24" id="IRY-6h-P8S"/>
+                <constraint firstItem="IlL-6v-iwc" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="1" id="Mhb-Hr-5tO"/>
+                <constraint firstItem="5ZC-0K-d3z" firstAttribute="top" secondItem="fi3-GG-HOW" secondAttribute="bottom" constant="8" id="P6u-fU-V1g"/>
+                <constraint firstItem="0ul-Dc-xWR" firstAttribute="top" secondItem="5ZC-0K-d3z" secondAttribute="bottom" constant="7.5" id="RGn-Yk-D0W"/>
+                <constraint firstItem="JdY-Bq-dDh" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="24" id="TMz-np-R29"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="fi3-GG-HOW" secondAttribute="trailing" constant="26" id="UDH-0n-mAf"/>
+                <constraint firstItem="fi3-GG-HOW" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="24" id="ViT-qX-9sv"/>
+                <constraint firstItem="jOV-O0-iNG" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="26" id="WoM-BQ-BkR"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="0ul-Dc-xWR" secondAttribute="trailing" constant="26" id="ZEY-qB-w4a"/>
+                <constraint firstItem="5ZC-0K-d3z" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="25" id="aYx-5e-dLJ"/>
+                <constraint firstItem="JdY-Bq-dDh" firstAttribute="top" secondItem="FDe-cy-MLH" secondAttribute="bottom" constant="8" id="d3b-aP-Htq"/>
+                <constraint firstItem="jOV-O0-iNG" firstAttribute="top" secondItem="0ul-Dc-xWR" secondAttribute="bottom" constant="17.5" id="gz6-Fs-NLJ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="jOV-O0-iNG" secondAttribute="trailing" constant="24" id="nOx-tJ-qqr"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="FDe-cy-MLH" secondAttribute="trailing" constant="25" id="suf-kV-Wly"/>
+                <constraint firstAttribute="trailing" secondItem="IlL-6v-iwc" secondAttribute="trailing" constant="-1" id="t5q-Qk-8gt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,394 @@
+[{
+		"unSupport": ["M_DL"],
+		"country": "AF"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "AS"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "AO"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "AI"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "AM"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "AW"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "BS"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "BJ"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "BM"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "BA"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "BW"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "BN"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "BF"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "BI"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "CV"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "KY"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "CF"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "TD"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "KM"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "CG"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "CU"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "CZ"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "DJ"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "GQ"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "GA"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "GE"
+	},
+	{
+		"unSupport": ["M_PP"],
+		"country": "GI"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "GD"
+	},
+	{
+		"unSupport": ["M_PP","M_DL"],
+		"country": "GP"
+	},
+	{
+		"unSupport": ["M_PP"],
+		"country": "GU"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "GG"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "GN"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "GW"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "HT"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "VA"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "IM"
+	},
+	{
+		"unSupport": ["M_ID"],
+		"country": "JP"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "JE"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "KI"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "KG"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "LA"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "LS"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "LR"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "LY"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "MG"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "MV"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "MH"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "MR"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "FM"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "MC"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "ME"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "MS"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "MM"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "NR"
+	},
+	{
+		"unSupport": ["M_ID"],
+		"country": "NP"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "NI"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "NE"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "PW"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "PS"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "PG"
+	},
+	{
+		"unSupport": ["M_PP"],
+		"country": "PR"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "RW"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "SH"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "VC"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "WS"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "SM"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "ST"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "SC"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "SL"
+	},
+	{
+		"unSupport": ["M_PP","M_ID"],
+		"country": "SX"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "SB"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "SS"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "SZ"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "SY"
+	},
+	{
+		"unSupport": ["M_ID"],
+		"country": "TW"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "TZ"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "TG"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "TK"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "TO"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "TN"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "TC"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "TV"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "UG"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "VU"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "VG"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "VI"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "EH"
+	},
+	{
+		"unSupport": ["M_DL"],
+		"country": "YE"
+	},
+	{
+		"unSupport": ["M_ID","M_DL"],
+		"country": "AX"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "BQ"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "BV"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "IO"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "CX"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "CC"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "FK"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "FO"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "GF"
+	},
+	{
+		"unSupport": ["M_ID","M_DL","M_PP"],
+		"country": "PF"
+	}
+
+]

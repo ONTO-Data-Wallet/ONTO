@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EnterWordViewController">
+            <connections>
+                <outlet property="clearBtn" destination="TcH-9a-eJ2" id="KyL-Hq-gFt"/>
+                <outlet property="middleL" destination="6nR-8M-mr8" id="rGa-9Y-BJx"/>
+                <outlet property="middleLabelTop" destination="mgI-hO-NeG" id="3y2-8o-Cjf"/>
+                <outlet property="mnenomicSubTitle" destination="NzJ-r3-7rq" id="MIK-BH-H3i"/>
+                <outlet property="nextBtn" destination="3cc-R3-W0I" id="iUr-aJ-LeY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请按顺序点击助记词,以确认你的备份助记词正确." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzJ-r3-7rq">
+                    <rect key="frame" x="19" y="50" width="336" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="lo3-Rl-GFw"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="yf5-CV-Ff7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.41568627450980389" green="0.47450980392156861" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cc-R3-W0I">
+                    <rect key="frame" x="0.0" y="619" width="375" height="48"/>
+                    <color key="backgroundColor" red="0.92941176470588238" green="0.94901960784313721" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="ifW-6t-kXV"/>
+                    </constraints>
+                    <state key="normal" title="下一步">
+                        <color key="titleColor" red="0.039215686274509803" green="0.6470588235294118" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="nextAction:" destination="-1" eventType="touchUpInside" id="hNo-H5-wG2"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请按顺序点击助记词。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nR-8M-mr8">
+                    <rect key="frame" x="19" y="290" width="336" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="5Ga-uT-w9D"/>
+                        <constraint firstAttribute="height" constant="30" id="d3l-lc-Kbw"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="ygT-Y3-Nxv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.41568627450980389" green="0.47450980392156861" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcH-9a-eJ2">
+                    <rect key="frame" x="122" y="256" width="131" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="e9o-Hm-rwB"/>
+                        <constraint firstAttribute="width" constant="131" id="jEP-WV-CBI"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="-11" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Clear" image="Clear">
+                        <color key="titleColor" red="0.039215686274509803" green="0.6470588235294118" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clearAction:" destination="-1" eventType="touchUpInside" id="CEe-7S-IhE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6nR-8M-mr8" secondAttribute="trailing" constant="20" id="0Nd-9Q-ulE"/>
+                <constraint firstItem="TcH-9a-eJ2" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="2Nc-2w-rpc"/>
+                <constraint firstItem="3cc-R3-W0I" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="3K7-du-N7B"/>
+                <constraint firstItem="NzJ-r3-7rq" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="19" id="3t8-KR-C9B"/>
+                <constraint firstItem="3cc-R3-W0I" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="l1n-Z1-nMV"/>
+                <constraint firstItem="6nR-8M-mr8" firstAttribute="top" secondItem="NzJ-r3-7rq" secondAttribute="bottom" constant="190" id="mgI-hO-NeG"/>
+                <constraint firstItem="6nR-8M-mr8" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="19" id="nIJ-Xt-3fh"/>
+                <constraint firstItem="3cc-R3-W0I" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="nk0-MU-ckf"/>
+                <constraint firstItem="6nR-8M-mr8" firstAttribute="top" secondItem="TcH-9a-eJ2" secondAttribute="bottom" id="oKa-oP-rbf"/>
+                <constraint firstItem="NzJ-r3-7rq" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="30" id="xj6-pv-hhv"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="NzJ-r3-7rq" secondAttribute="trailing" constant="20" id="zHh-7f-0Tm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="50.5" y="59.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Clear" width="14" height="14"/>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ONTO.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>0FD6E198265F1A24BC7F731C8ED1102D88CA5D2C</string>
+				<key>dateExpires</key>
+				<string>2019/3/15</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>6B83RQ97AA.com.github.ontio.onto</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>6B83RQ97AA</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>6B83RQ97AA.com.github.ontio.onto</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>ONTO.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>fccfb0b5-1f4c-49cc-a54f-c462aec34d6c</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.github.ontio.onto</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>6B83RQ97AA</string>
+				<key>name</key>
+				<string>Ontology Development Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

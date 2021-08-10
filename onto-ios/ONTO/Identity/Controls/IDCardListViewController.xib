@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IDCardListViewController">
+            <connections>
+                <outlet property="myTable" destination="UWv-aB-LMW" id="UBY-F4-aPK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ek-2V-kqy">
+                    <rect key="frame" x="43" y="560" width="285" height="50"/>
+                    <color key="backgroundColor" red="0.071932740509999996" green="0.49399495119999998" blue="0.71435028310000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="YFy-uP-KAR"/>
+                    </constraints>
+                    <state key="normal" title="Start">
+                        <color key="titleColor" red="1" green="0.99039347109999998" blue="0.99524001240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAZ-WE-mtb">
+                    <rect key="frame" x="43" y="55" width="288" height="389"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make identity cards in One_ step Share your digital identity freely" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5G5-AP-Dxd">
+                            <rect key="frame" x="59" y="289" width="171" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="53" id="WHP-at-02u"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.76854294540000001" green="0.76867610220000004" blue="0.76853454109999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Srz-1i-ic1">
+                            <rect key="frame" x="144" y="339" width="144" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="Hbs-Uu-EXZ"/>
+                                <constraint firstAttribute="width" constant="144" id="UT1-oc-oKb"/>
+                            </constraints>
+                            <state key="normal" title="Learn more">
+                                <color key="titleColor" red="0.35076582429999997" green="0.79965835809999997" blue="0.88435018060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Identities -sample" translatesAutoresizingMaskIntoConstraints="NO" id="a8W-jq-Sas">
+                            <rect key="frame" x="72" y="42" width="145" height="222"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="a8W-jq-Sas" secondAttribute="trailing" constant="71" id="5sc-Og-zpB"/>
+                        <constraint firstItem="a8W-jq-Sas" firstAttribute="top" secondItem="WAZ-WE-mtb" secondAttribute="top" constant="42" id="97e-4G-VJ3"/>
+                        <constraint firstAttribute="trailing" secondItem="5G5-AP-Dxd" secondAttribute="trailing" constant="58" id="CPM-wA-pTl"/>
+                        <constraint firstAttribute="bottom" secondItem="5G5-AP-Dxd" secondAttribute="bottom" constant="47" id="IR1-Oe-I2z"/>
+                        <constraint firstItem="a8W-jq-Sas" firstAttribute="leading" secondItem="WAZ-WE-mtb" secondAttribute="leading" constant="72" id="MUe-Vk-6Qi"/>
+                        <constraint firstAttribute="bottom" secondItem="Srz-1i-ic1" secondAttribute="bottom" constant="8" id="NvA-MT-Te4"/>
+                        <constraint firstItem="5G5-AP-Dxd" firstAttribute="leading" secondItem="WAZ-WE-mtb" secondAttribute="leading" constant="59" id="Wsa-E4-MR9"/>
+                        <constraint firstAttribute="height" constant="389" id="aVy-qI-pTw"/>
+                        <constraint firstAttribute="trailing" secondItem="Srz-1i-ic1" secondAttribute="trailing" id="ePj-5Y-ZUW"/>
+                        <constraint firstItem="5G5-AP-Dxd" firstAttribute="top" secondItem="a8W-jq-Sas" secondAttribute="bottom" constant="25" id="spN-S3-X1v"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UWv-aB-LMW">
+                    <rect key="frame" x="5" y="0.0" width="365" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="WAZ-WE-mtb" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="43" id="2Ra-9g-JyH"/>
+                <constraint firstItem="UWv-aB-LMW" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="5" id="FJB-sb-yoB"/>
+                <constraint firstItem="4ek-2V-kqy" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="43" id="HS7-es-upG"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="UWv-aB-LMW" secondAttribute="trailing" constant="5" id="LLm-ik-FmE"/>
+                <constraint firstItem="UWv-aB-LMW" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" constant="-5" id="YW9-Vu-jzm"/>
+                <constraint firstItem="UWv-aB-LMW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="YzA-AL-QrG"/>
+                <constraint firstItem="UWv-aB-LMW" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="aiP-11-w7l"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="4ek-2V-kqy" secondAttribute="bottom" constant="57" id="c2E-37-pcZ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="WAZ-WE-mtb" secondAttribute="trailing" constant="44" id="dIz-SI-0AE"/>
+                <constraint firstItem="UWv-aB-LMW" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="5" id="ds0-Q1-628"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="4ek-2V-kqy" secondAttribute="trailing" constant="47" id="kvb-v3-Ipy"/>
+                <constraint firstItem="UWv-aB-LMW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lkY-YS-lTN"/>
+                <constraint firstItem="UWv-aB-LMW" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="mt9-X4-Iwi"/>
+                <constraint firstItem="WAZ-WE-mtb" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="35" id="tAl-3A-sbx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Identities -sample" width="194" height="296"/>
+    </resources>
+</document>
