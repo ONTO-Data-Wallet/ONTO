@@ -1,25 +1,7 @@
-# onto-ios
-### 开发切换至dev分支
-```bash
-cd ~/OnChain
-git checkout dev
-pod install //下载第三方库
-```
-### 开发时注意事项
-<<<<<<< HEAD
-1. Viewcontroller全部继承BaseViewcontroller，VC尽量不要使用xib创建，自定义view随便
-2. 公共的自定义View写在Onchain/Common/目录下
-3. 网络请求的接口写在OnChain/Api.h文件中，具体方法请看CCRequest.h
-4. 一些宏定义或者配置项写入OnChain/Config/Config.h文件中
-5. 自定义的工具类写在OnChain/Utils中
-6. 切换rootVC请参考ViewController.m文件的实现
-
-=======
- 1. Viewcontroller全部继承BaseViewcontroller，VC尽量不要使用xib创建，自定义view随便
- 2. 公共的自定义View写在Onchain/Common/目录下
- 3. 网络请求的接口写在OnChain/Api.h文件中，具体方法请看CCRequest.h
- 4. 一些宏定义或者配置项写入OnChain/Config/Config.h文件中
- 5. 自定义的工具类写在OnChain/Utils中
- 6. 切换rootVC请参考ViewController.m文件的实现
->>>>>>> origin
+![ONTO-black](https://user-images.githubusercontent.com/19179497/128844700-9ce3a443-5650-4a08-893b-d54ceb5bbbc0.png)
+About ONTO Wallet
+ONTO is the first truly decentralized, cross-chain wallet, allowing users to securely manage their identities, data, and digital assets. ONTO users can manage their crypto assets (including NFTs), perform cross-chain swaps, keep up-to-date with the latest industry latest developments and events via the ONTO news feed, and enjoy access to a variety of dApps. 
+With ONTO Wallet, users can create an ONT ID, a decentralized digital identity that fully protects their private data through an encryption algorithm and enables one-click multi-chain wallet address creation and management. Users worldwide can download ONTO Wallet now via onto.app or their mobile app store. Desktop users can also install ONTO Web Wallet for Google Chrome.
+One-liner
+The first truly decentralized cross-chain wallet, ONTO is an all-in-one mobile application for the management of digital identity, data, and assets.
 
