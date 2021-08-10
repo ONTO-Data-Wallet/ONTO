@@ -1,1 +1,3 @@
-# ONTO
+![ONTO-black](https://user-images.githubusercontent.com/19179497/128844980-87012666-9071-4e02-b369-c503c3bc2160.png)
+ONTO is the first truly decentralized, cross-chain wallet, allowing users to securely manage their identities, data, and digital assets. ONTO users can manage their crypto assets (including NFTs), perform cross-chain swaps, keep up-to-date with the latest industry latest developments and events via the ONTO news feed, and enjoy access to a variety of dApps. 
+With ONTO Wallet, users can create an ONT ID, a decentralized digital identity that fully protects their private data through an encryption algorithm and enables one-click multi-chain wallet address creation and management. Users worldwide can download ONTO Wallet now via onto.app or their mobile app store. Desktop users can also install ONTO Web Wallet for Google Chrome.
